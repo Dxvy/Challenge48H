@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+  }
+
+@font-face {
+    font-family: "Police1";
+    src: url(./fonts/PISANG\ KEJU.otf);
+}
+
+.ban{
+    display: flex;
+    background-color: rgb(157, 61, 61);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    font-size: 40px;
+    font-family: "Police1";
+}
+
+.line {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(157, 61, 61);
+    animation: move 5s linear infinite;
+  }
+  
+  @keyframes move {
+    from { transform: translateX(0%); }
+    to { transform: translateX(100%); }
+  }
+
+.ban2{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ban3{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title2{
+    color: rgb(157, 61, 61);
+    font-size: 30px;
+    font-family: "Police1"; 
+}
+
+.animated-background{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background: radial-gradient(circle at 50% 50%, 
+    rgb(115, 44, 44) 0%, 
+    rgb(157, 61, 61) 15%, 
+      rgb(157, 61, 61) 30%, 
+      rgb(136, 53, 53) 45%);
+    background-size: 400% 400%;
+    animation: move 7s ease-in-out infinite;
+  }
+  
+  @keyframes move {
+    0% { background-position: 0% 0%; }
+    25% { background-position: 100% 0%; }
+    50% { background-position: 100% 100%; }
+    75% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+  }
+
+  .txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-size: 25px;
+    font-family: "Police1";
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .fond{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .txtt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px; 
+    height: 20px;
+  }
+
+  .txt3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0px;
+    color: rgb(157, 61, 61);
+    font-size: 25px;
+    font-family: "Police1";
+    text-align: center;
+  }
