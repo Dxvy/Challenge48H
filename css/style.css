@@ -77,8 +77,8 @@ body {
     background: radial-gradient(circle at 50% 50%, 
     rgb(115, 44, 44) 0%, 
     rgb(157, 61, 61) 15%, 
-      rgb(157, 61, 61) 30%, 
-      rgb(136, 53, 53) 45%);
+    rgb(157, 61, 61) 30%, 
+    rgb(136, 53, 53) 45%);
     background-size: 400% 400%;
     animation: move 7s ease-in-out infinite;
   }
@@ -95,8 +95,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
     color: white;
     font-size: 25px;
     font-family: "Police1";
@@ -106,8 +104,6 @@ body {
 
   .fond{
     display: flex;
-    height: 100px;
-    width: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -117,7 +113,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 550px; 
-    height: 20px;
+    height: 20px; 
   }
 
   .txt3{
