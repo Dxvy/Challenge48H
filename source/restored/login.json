@@ -1,0 +1,38 @@
+[
+  {
+    "type":"admin",
+    "mail": "account.admin.network@Hacky'Nov.fr",
+    "mdp": "fc294a4698f9886f4d7df480442541f5"
+  },
+  {
+    "type":"user",
+    "mail": "martin.ytb@rest.fr",
+    "mdp": "QWNjb3VudEBDaGFsbGVuZ2U0OEhAWW5vdg=="
+  },
+  {
+    "type":"guest",
+    "mail": "gilbert46755@soap.com",
+    "mdp": "QWNjb3VudEBIYWNreSdOb3ZAR3Vlc3Q="
+  },
+  {
+    "type":"ynov",
+    "mail": "fabienolicart@snibel.com",
+    "mdp": "QWNjb3VudEBDaGFsbGVuZ2U0OEhAWU5PVg=="
+  },
+  {
+    "type":"ytrack",
+    "mail": "ynov.campus.fr",
+    "mdp": "bGVzIGNoYXVzc2V0dGVzIGRlIGwnYXJjaGkgZHVjaGVzc2Ugc29udCBlbGxlcyBzw6hjaGVz"
+  },
+  {
+    "type":"win",
+    "mail":"account.admin.network@Challenge48H.fr",
+    "mdp":"aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1oUHItWWM5MnFhWQ=="
+  },
+  {
+    "type":"loose",
+    "mail":"fake.account.logique@loose.fr",
+    "mdp":"https://fakeupdate.net/win8/"
+  }
+]
+

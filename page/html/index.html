@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="page/style/nav.css">
+    <title>Login</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bag">
+        <a class="navbar-brand" href="/">
+          <img src="https://pbs.twimg.com/profile_images/1460989365614792707/IsZA_GbM_400x400.jpg" width="60" height="60" alt="logo">
+        </a>
+      </nav>
+      
+    <div class="container mt-5 bag2 mx-auto">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="text-center color">Login</h1>
+          <h4 class="text-center color"><?php if (isset($_POST['bouton'])) {echo $error;}?></h4>
+
+          <form action="" method="post">
+            <div class="form-group">
+              <label for="id" class="color">Identifiant</label>
+              <input type="text" class="form-control color" id="id" name="id">
+            </div>
+            <div class="form-group">
+              <label for="mdp" class="color">Password</label>
+              <input type="text" class="form-control color" id="password" name="mdp">
+            </div>
+            <input type="submit" name="bouton" class="btn btn-dark color" value="Envoyer">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-3 mt-5 bg-footer fixed-bottom">
+      <div class="container">
+            <p class="color text-center">2023 &copy; Challenge 48H</p>
+      </div>
+    </footer>
+      
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.16.0/dist/umd/popper.min.js" integrity="sha384-QDdH5nzX9QnAaJ3qd1vL3vZ5a5lZt1nZc8EZRGMG3JE+FyqXCm0QRH+oRJ8GvEZt" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

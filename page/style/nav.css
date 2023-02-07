@@ -1,0 +1,17 @@
+.bag{
+    background-color: #1C1C1C;
+    border-bottom: 2px solid #EA0B66;
+}
+
+body{
+    background-color: #1C1C1C;
+}
+
+.color{
+    color: #EA0B66;
+}
+
+.bg-footer{
+    background-color: #1C1C1C;
+    border-top: 2px solid #EA0B66;
+}
