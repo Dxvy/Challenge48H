@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Challenge 48h</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="ban">
+            <img class="logo" src="../css/image.png">
+            <p class="title">GROUPE 10 - START</p>
+        </div>
+    </header>
+
+    <div class="line"></div>
+
+
+    <div class="ban2">
+        <p class="title2">- RÉGLES -</p>
+    </div>
+
+    <div class="animated-background">
+        <p class="txt">RÈGLE DU JEU : VOTRE OBJECTIF EST DE RÉSOUDRE LES ÉNIGMES QUE L'ON VOUS DEMANDE SUR CE SITE AFIN
+            DE POUVOIR CONTINUER LE JEU.
+            POUR CELA IL VA VOUS FALLOIR DE LA LOGIQUE ET BEAUCOUP DE RÉFLEXION POUR RÉUSSIR TOUTES CES ÉTAPES. BONNE
+            CHANCE
+        </p>
+    </div>
+    <form action="/soluce3" method="POST">
+        <div class="ban3">
+            <p class="title2">- ÉNIGME 1 -</p>
+            <p class="txt3">Sans même regarder, je vois aussi clair dans l'obscurité que le jour. Qui suis-je ?</p>
+            <input type="text" name="reponse1">
+        </div>
+        <div class="ban3">
+            <p class="title2">- ÉNIGME 2 -</p>
+            <p class="txt3">Qu'est qui sépare l'homme de l'animal ?</p>
+            <input type="text" name="reponse2">
+        </div>
+        <div class="ban3">
+            <p class="title2">- ÉNIGME 3 -</p>
+            <p class="txt3">Je cours toute la journée mais je ne sais pas marcher. J'ai une bouche mais je ne peux pas
+                parler. Qui suis-je ?</p>
+            <input type="text" name="reponse3">
+        </div>
+        <div class="ban3">
+            <p class="title2">- ÉNIGME 4 -</p>
+            <p class="txt3">Quel nombre divisé par lui-même donne son double ?</p>
+            <input type="text" name="reponse4">
+        </div>
+        <div class="ban3">
+            <p class="title2">- ÉNIGME 5 -</p>
+            <p class="txt3">J'ai cinq doigts mais je n'ai pas d'os, que suis-je ?</p>
+            <input type="text" name="reponse5">
+        </div>
+        <div class="fond">
+
+            <input class="sub" type="submit" value="envoyer reponse">
+            {{if .Verif}}
+            <div class="reponse" ><a href= {{.Ip}}>Challenge suivant</a> </div>
+            {{end}}
+        </div>
+    </form>
+
+</body>
+
+</html>
+
