@@ -10,11 +10,7 @@ fake.addEventListener("click", () => {
     modal.style.display="none"
     body.style.cursor="none"
     toggleFullScreen()
-
 })
-    // charlie1.addEventListener("click", () => {
-    //
-    // })
 })
 
 function toggleFullScreen() {

@@ -1,17 +1,34 @@
 .bag{
-    background-color: #1C1C1C;
-    border-bottom: 2px solid #EA0B66;
+    background-color: #fff;
+    border-bottom: 2px solid #9d3d3d;
 }
 
 body{
-    background-color: #1C1C1C;
+    background-color: #fff;
+}
+.btn .btn-dark .color:hover{
+    background-color: #9d3d3d;
+    color: #fff;
 }
 
-.color{
-    color: #EA0B66;
+footer{
+    color: white;
 }
 
 .bg-footer{
-    background-color: #1C1C1C;
-    border-top: 2px solid #EA0B66;
+    background-color: #9d3d3d;
+    border-top: 2px solid #9d3d3d;
+}
+
+.navbar{
+    background-color: #9d3d3d;
+    color: white;
+}
+
+.cp{
+    color: #fff;
+}
+
+.btn{
+    border: 1px solid #9d3d3d;
 }

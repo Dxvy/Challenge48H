@@ -1,18 +1,8 @@
 [
   {
     "type":"admin",
-    "mail": "account.admin.network@Hacky'Nov.fr",
-    "mdp": "fc294a4698f9886f4d7df480442541f5"
-  },
-  {
-    "type":"user",
-    "mail": "martin.ytb@rest.fr",
-    "mdp": "QWNjb3VudEBDaGFsbGVuZ2U0OEhAWW5vdg=="
-  },
-  {
-    "type":"guest",
-    "mail": "gilbert46755@soap.com",
-    "mdp": "QWNjb3VudEBIYWNreSdOb3ZAR3Vlc3Q="
+    "mail": "admin.ynov@chall48.fr",
+    "mdp": "f6a3789b9b925aad214332eb949eb181"
   },
   {
     "type":"ynov",
@@ -25,14 +15,23 @@
     "mdp": "bGVzIGNoYXVzc2V0dGVzIGRlIGwnYXJjaGkgZHVjaGVzc2Ugc29udCBlbGxlcyBzw6hjaGVz"
   },
   {
+    "type":"user",
+    "mail": "user.ynov@chall48.fr",
+    "mdp": "Q2hhbGxfNDhoQFVzZXI="
+  },
+  {
     "type":"win",
     "mail":"account.admin.network@Challenge48H.fr",
-    "mdp":"aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1oUHItWWM5MnFhWQ=="
+    "mdp":"aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj05TTJDZTUwSGxlOA=="
   },
   {
     "type":"loose",
     "mail":"fake.account.logique@loose.fr",
-    "mdp":"https://fakeupdate.net/win8/"
+    "mdp":"YmllbnZlbnVlIGRhbnMgbGEgbWF0cmljZQ=="
+  },
+  {
+    "type":"guest",
+    "mail": "guest.ynov@chall48.fr",
+    "mdp": "Q2hhbGxfNDhoQEd1ZXN0"
   }
 ]
-
