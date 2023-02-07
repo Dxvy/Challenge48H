@@ -8,6 +8,6 @@ if (isset($_SESSION['trouvé'])) {
 } else {
     $response = "<h1 class='text-center color'>Bien essayer petit malin mais il faudra quand meme trouver le mot de passe !!!!!!</h1>";
     $flag = "";
-    require("../../page/success.html");
+    require("../../page/html/success.html");
 }
 

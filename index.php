@@ -38,7 +38,7 @@ function send(){
                 $error = "Dommage tu es tombé dans le panneau 😏";
             }
             else if($id == "admin" && $mp == "test" ) {
-                header('Location: page/windows.html');
+                header('Location: page/html/charlie.html');
             }
             else {
                 $error = "⚠️ Erreur d'authentifiaction ⚠️";
@@ -49,7 +49,7 @@ function send(){
 cookie();
 send();
 
-require("page/index.html");
+require("page/html/index.html");
 
 
 ?>
