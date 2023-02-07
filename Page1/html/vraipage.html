@@ -32,7 +32,7 @@
             CHANCE
         </p>
     </div>
-    <form action="/challenge48h" method="POST">
+    <form action="/soluce3" method="POST">
         <div class="ban3">
             <p class="title2">- ÉNIGME 1 -</p>
             <p class="txt3">Sans même regarder, je vois aussi clair dans l'obscurité que le jour. Qui suis-je ?</p>
@@ -63,7 +63,7 @@
 
             <input class="sub" type="submit" value="envoyer reponse">
             {{if .Verif}}
-            <div class="reponse">{{.Ip}} suivante</div>
+            <div class="reponse" ><a href= {{.Ip}}>Challenge suivant</a> </div>
             {{end}}
         </div>
     </form>

@@ -18,14 +18,16 @@ func main() {
 	tmpl_index := template.Must(template.ParseFiles("html/index.html"))
 	tmpl_page2 := template.Must(template.ParseFiles("html/vraipage.html"))
 	tmpl_troll := template.Must(template.ParseFiles("html/troll.html"))
+	tmpl_image := template.Must(template.ParseFiles("html/trollimage.html"))
+	tmpl_base := template.Must(template.ParseFiles("html/base.html"))
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		tmpl_index.Execute(w, nil)
 	})
 	http.HandleFunc("/soluce", func(w http.ResponseWriter, r *http.Request) {
-		tmpl_troll.Execute(w, nil)
+		tmpl_image.Execute(w, nil)
 	})
 	http.HandleFunc("/soluce1", func(w http.ResponseWriter, r *http.Request) {
-		tmpl_troll.Execute(w, nil)
+		tmpl_base.Execute(w, nil)
 	})
 	http.HandleFunc("/soluce2", func(w http.ResponseWriter, r *http.Request) {
 		tmpl_troll.Execute(w, nil)
@@ -35,11 +37,11 @@ func main() {
 	})
 	http.HandleFunc("/soluce3", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method == "POST" {
-			if r.FormValue("reponse1") == "aveugle" && r.FormValue("reponse2") == "evolution" && r.FormValue("reponse3") == "rivière" && r.FormValue("reponse4") == "0.5" && r.FormValue("reponse5") == "palme" {
+			if r.FormValue("reponse1") == "aveugle" && r.FormValue("reponse2") == "evolution" && r.FormValue("reponse3") == "riviere" && r.FormValue("reponse4") == "0.5" && r.FormValue("reponse5") == "palme" {
 				t.Verif = true
 			}
 			if t.Verif {
-				t.Ip = "rien"
+				t.Ip = "10.13.32.202:5192"
 				fmt.Println(t.Ip)
 			}
 
