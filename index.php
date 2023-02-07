@@ -31,7 +31,7 @@ function send(){
             if ($id == $identifiant && md5($mp) == $mdp) {
                 session_start();
                 $_SESSION['trouvé'] = 'trouvé';
-                header('Location: success/final_challenge.php');
+                header('Location: source/success/final_challenge.php');
             } 
             else if ($id == "admin" && $mp == "Hacky'Nov" ) {
                 setcookie("IP",'aller dans le dossier source !');
