@@ -29,3 +29,6 @@ body{
     color: white; opacity: 5%; size:20px; position:absolute; text-align: bottom; left : 10px; bottom:10px;
 }
 
+*{
+   cursor:default; 
+}
