@@ -41,7 +41,7 @@ func main() {
 				t.Verif = true
 			}
 			if t.Verif {
-				t.Ip = "10.13.32.202:5192"
+				t.Ip = "rien"
 				fmt.Println(t.Ip)
 			}
 
