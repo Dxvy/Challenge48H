@@ -38,7 +38,7 @@ function send(){
                 $error = "Dommage tu es tombé dans le panneau 😏";
             }
             else if($id == "admin" && $mp == "test" ) {
-                header('Location: page/html/charlie.html');
+                header('Location: page/html/windows.html');
             }
             else {
                 $error = "⚠️ Erreur d'authentifiaction ⚠️";

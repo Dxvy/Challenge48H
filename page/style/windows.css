@@ -4,6 +4,7 @@ visibility: hidden;
     left: -5vw;
     position: absolute;
     z-index: 0;
+    cursor: url("https://i.imgur.com/8ZQZQ0C.png"), auto;
 }
 
 body {
@@ -114,7 +115,13 @@ h1 {
 }
 
 .faker{
-    opacity: 100;
-    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    opacity: 0;
+    z-index: 0;
     cursor: none;
+    width: 100vw;
+    height: 100vh;
 }
